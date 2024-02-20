@@ -28,6 +28,3 @@ function log<T extends Length>(val: T): T {
 log([2]);
 log({ length: 4 });
 log("dsf");
-
-// 为什么传入number不报错？
-log(444234);
